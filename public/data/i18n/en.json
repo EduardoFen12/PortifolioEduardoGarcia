@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "locale": "en",
+    "pageTitle": "Eduardo Garcia Fensterseifer | Developer Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "controls": {
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark",
+    "portuguese": "PT 🇧🇷",
+    "english": "EN 🇺🇸"
+  },
+  "hero": {
+    "eyebrow": "iOS Developer",
+    "title": "Hello world! I'm Eduardo.",
+    "description": "I am an iOS developer with 2 years of experience building native Swift apps, focused on clean architecture, performance, and polished user experiences. I have 4 apps published on the App Store and I am open to mobile development opportunities in general, with a special interest in the Apple ecosystem.",
+    "location": "Based in Brazil, building for global teams"
+  },
+  "contact": {
+    "title": "Let’s connect",
+    "description": "I’m available for product, mobile, and AI-focused collaborations.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  },
+  "projects": {
+    "title": "Featured iOS Projects",
+    "description": "A showcase of native Swift applications. Focused on clean architecture, high performance, and intuitive user experiences.",
+    "yearLabel": "Year",
+    "viewProject": "Open project",
+    "backToHome": "Back to home",
+    "teamTitle": "Team members",
+    "technologiesTitle": "Technologies",
+    "galleryTitle": "Gallery",
+    "aboutTitle": "Project summary",
+    "notFoundTitle": "Project not found",
+    "notFoundDescription": "The project you are looking for is not available in the current language dataset.",
+    "returnHome": "Return to portfolio"
+  },
+  "footer": {
+    "text": "Built with React, TypeScript, Tailwind CSS, and Framer Motion."
+  }
+}
