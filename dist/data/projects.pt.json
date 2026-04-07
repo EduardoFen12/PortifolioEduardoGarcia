@@ -8,7 +8,7 @@
     "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775593047/TranscriberIcon2_ftsqej.png",
     "images": [
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775588797/Screen-1_bfqhxr.png",
-      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775587865/Screen-2_cljhtc.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775596102/Screen-2_cciwxr.png",
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589109/Screen-3_iukrom.png"
     ],
     "technologies": ["SwiftUI", "SwiftData", "AVFoundation", "Speech", "Supabase", "Gemini"],

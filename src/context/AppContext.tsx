@@ -22,7 +22,7 @@ type AppContextValue = {
 const AppContext = createContext<AppContextValue | null>(null);
 
 const DEFAULT_LANGUAGE: Language = 'en';
-const DEFAULT_THEME: Theme = 'light';
+const DEFAULT_THEME: Theme = 'dark';
 const DEFAULT_TRANSLATIONS: TranslationTree = {
   metadata: {
     locale: 'en',
