@@ -26,20 +26,22 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       transition={{ duration: 0.45, delay: index * 0.08 }}
       whileHover={{ y: -8 }}
     >
-      <div className="mb-6 flex items-start justify-between gap-4">
-        <img
-          alt={project.name}
-          className="h-16 w-16 rounded-[1.35rem] object-cover shadow-[0_8px_24px_rgba(0,0,0,0.12)] dark:shadow-[0_12px_28px_rgba(0,0,0,0.38)]"
-          src={resolveAssetUrl(project.icon)}
-        />
-        <span className="rounded-full bg-accentSoft px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent">
-          {project.year}
-        </span>
-      </div>
-      <div className="flex-1">
-        <h3 className="text-2xl font-semibold tracking-[-0.03em] text-text">{project.name}</h3>
-        <p className="mt-3 text-base leading-7 text-textMuted">{project.shortDescription}</p>
-      </div>
+      <Link className="block flex-1" to={`/project/${project.id}`}>
+        <div className="mb-6 flex items-start justify-between gap-4">
+          <img
+            alt={project.name}
+            className="h-16 w-16 rounded-[1.35rem] object-cover shadow-[0_8px_24px_rgba(0,0,0,0.12)] dark:shadow-[0_12px_28px_rgba(0,0,0,0.38)]"
+            src={resolveAssetUrl(project.icon)}
+          />
+          <span className="rounded-full bg-accentSoft px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent">
+            {project.year}
+          </span>
+        </div>
+        <div className="flex-1">
+          <h3 className="text-2xl font-semibold tracking-[-0.03em] text-text">{project.name}</h3>
+          <p className="mt-3 text-base leading-7 text-textMuted">{project.shortDescription}</p>
+        </div>
+      </Link>
       <Link
         className="mt-8 inline-flex items-center justify-between rounded-full bg-surfaceSoft px-4 py-3 text-sm font-medium text-text transition hover:bg-accent hover:text-white"
         to={`/project/${project.id}`}

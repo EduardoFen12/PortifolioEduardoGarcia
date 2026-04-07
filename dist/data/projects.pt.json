@@ -11,12 +11,63 @@
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775596102/Screen-2_cciwxr.png",
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589109/Screen-3_iukrom.png"
     ],
+    "store": {
+      "label": "TestFlight",
+      "url": "https://testflight.apple.com/join/2NBMrnGz"
+    },
     "technologies": ["SwiftUI", "SwiftData", "AVFoundation", "Speech", "Supabase", "Gemini"],
     "team": [
       {
         "name": "Eduardo Garcia Fensterseifer",
         "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
         "role": "Desenvolvedor"
+      }
+    ]
+  },
+  {
+    "id": "tower-of-the-winds",
+    "name": "Tower of the Winds",
+    "shortDescription": "Um puzzle-platformer 2D em que o jogador controla um gato por meio de rajadas de vento.",
+    "fullDescription": "Tower of the Winds é um jogo mobile 2D para iOS centrado em uma mecânica touch-native de movimentação baseada em vento. Em vez de botões tradicionais, o jogador usa swipes para impulsionar o personagem, resolver desafios de plataforma, evitar perigos, coletar moedas e avançar por checkpoints com poderes contextuais. Desenvolvido com SwiftUI, SpriteKit e GameplayKit, o projeto combina uma base técnica escalável com identidade visual inspirada na mitologia grega, Game Center e fluxos de revive e progressão pensados para alta rejogabilidade.",
+    "year": "2026",
+    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592827/TowerOfTheWindsIcon_km4xfz.png",
+    "images": [
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.39_f53pqx.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.42.07_injjw1.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.42.49_lbj5bt.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.44_kn89g9.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.49_ttwlmz.png"
+    ],
+    "store": {
+      "label": "TestFlight",
+      "url": "https://testflight.apple.com/join/xJwD9V4R"
+    },
+    "technologies": ["SwiftUI", "SpriteKit", "GameplayKit", "Game Center", "Google Mobile Ads", "Lottie"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Eduardo Camana",
+        "linkedin": "https://www.linkedin.com/in/eduardocamana/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Andrei Rech",
+        "linkedin": "https://www.linkedin.com/in/rechandrei/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Carolina Silva dos Santos",
+        "linkedin": "https://www.linkedin.com/in/carolina-silva-dos-santos-a320111a7/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Rafaela Julianotte da Silva",
+        "linkedin": "https://www.linkedin.com/in/rafajulianotte/",
+        "role": "Designer"
       }
     ]
   },
@@ -34,6 +85,10 @@
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589880/Preview-3_v0jsrz.jpg",
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589880/Preview_qtu7gz.jpg"
     ],
+    "store": {
+      "label": "App Store",
+      "url": "https://apps.apple.com/br/app/recorda/id6747271327"
+    },
     "technologies": ["UIKit", "SwiftUI", "Core Data", "WidgetKit", "Spotify API", "MusicKit"],
     "team": [
       {
@@ -78,6 +133,10 @@
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592073/Preview_1b-3_vlufvp.png",
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592074/Preview_1b-5_v9wmbu.png"
     ],
+    "store": {
+      "label": "App Store",
+      "url": "https://apps.apple.com/br/app/retrotrip/id6752355019"
+    },
     "technologies": ["SwiftUI", "SceneKit", "Core Motion", "CloudKit", "WidgetKit", "Lottie"],
     "team": [
       {
@@ -108,49 +167,6 @@
     ]
   },
   {
-    "id": "tower-of-the-winds",
-    "name": "Tower of the Winds",
-    "shortDescription": "Um puzzle-platformer 2D em que o jogador controla um gato por meio de rajadas de vento.",
-    "fullDescription": "Tower of the Winds é um jogo mobile 2D para iOS centrado em uma mecânica touch-native de movimentação baseada em vento. Em vez de botões tradicionais, o jogador usa swipes para impulsionar o personagem, resolver desafios de plataforma, evitar perigos, coletar moedas e avançar por checkpoints com poderes contextuais. Desenvolvido com SwiftUI, SpriteKit e GameplayKit, o projeto combina uma base técnica escalável com identidade visual inspirada na mitologia grega, Game Center e fluxos de revive e progressão pensados para alta rejogabilidade.",
-    "year": "2026",
-    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592827/TowerOfTheWindsIcon_km4xfz.png",
-    "images": [
-      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.39_f53pqx.png",
-      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.42.07_injjw1.png",
-      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.42.49_lbj5bt.png",
-      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.44_kn89g9.png",
-      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.49_ttwlmz.png"
-    ],
-    "technologies": ["SwiftUI", "SpriteKit", "GameplayKit", "Game Center", "Google Mobile Ads", "Lottie"],
-    "team": [
-      {
-        "name": "Eduardo Garcia Fensterseifer",
-        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
-        "role": "Desenvolvedor"
-      },
-      {
-        "name": "Eduardo Camana",
-        "linkedin": "https://www.linkedin.com/in/eduardocamana/",
-        "role": "Desenvolvedor"
-      },
-      {
-        "name": "Andrei Rech",
-        "linkedin": "https://www.linkedin.com/in/rechandrei/",
-        "role": "Desenvolvedor"
-      },
-      {
-        "name": "Carolina Silva dos Santos",
-        "linkedin": "https://www.linkedin.com/in/carolina-silva-dos-santos-a320111a7/",
-        "role": "Desenvolvedor"
-      },
-      {
-        "name": "Rafaela Julianotte da Silva",
-        "linkedin": "https://www.linkedin.com/in/rafajulianotte/",
-        "role": "Designer"
-      }
-    ]
-  },
-  {
     "id": "zine",
     "name": "Zine",
     "shortDescription": "Crie, visualize e exporte mini-zines prontos para dobra e impressão diretamente no iPhone.",
@@ -165,6 +181,10 @@
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_4_-_Exportar_bc3qvg.jpg",
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_5_-_Dark_mode_rs9xfu.jpg"
     ],
+    "store": {
+      "label": "App Store",
+      "url": "https://apps.apple.com/br/app/ziner/id6755310040"
+    },
     "technologies": ["SwiftUI", "SwiftData", "UIKit", "Observation", "PDF Export", "zinedit"],
     "team": [
       {

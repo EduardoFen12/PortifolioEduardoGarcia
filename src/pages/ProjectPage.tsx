@@ -8,6 +8,14 @@ function resolveAssetUrl(path: string) {
     : `${import.meta.env.BASE_URL}${path}`;
 }
 
+function AppleIcon() {
+  return (
+    <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M15.06 3.11c0 1.06-.39 2.03-1.04 2.74-.72.79-1.9 1.4-2.94 1.31-.13-1.03.41-2.13 1.1-2.83.71-.74 1.95-1.28 2.88-1.22Zm3.57 14.37c-.42.98-.62 1.42-1.16 2.27-.75 1.16-1.81 2.61-3.13 2.62-1.17.01-1.47-.76-3.06-.75-1.59.01-1.92.76-3.09.75-1.32-.01-2.32-1.31-3.07-2.47-2.08-3.18-2.3-6.9-1.02-8.87.91-1.41 2.34-2.23 3.68-2.23 1.37 0 2.24.76 3.37.76 1.09 0 1.76-.76 3.36-.76 1.2 0 2.47.65 3.38 1.78-2.96 1.62-2.48 5.86.74 6.9Z" />
+    </svg>
+  );
+}
+
 function AppMetaItem({
   label,
   value,
@@ -82,9 +90,15 @@ export function ProjectPage() {
             </div>
 
             <div className="flex items-center gap-3 self-start">
-              <span className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(0,113,227,0.28)]">
-                {translations.projects.viewProject}
-              </span>
+              <a
+                className="inline-flex w-fit items-center gap-2 whitespace-nowrap rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(0,113,227,0.28)]"
+                href={project.store.url}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AppleIcon />
+                <span>{project.store.label}</span>
+              </a>
               <span className="rounded-full bg-surfaceSoft px-4 py-3 text-sm font-medium text-textMuted">
                 {project.year}
               </span>
