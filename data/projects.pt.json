@@ -1,0 +1,197 @@
+[
+  {
+    "id": "transcriptionist",
+    "name": "Transcriptionist",
+    "shortDescription": "Transforma gravações e áudios importados em material de estudo estruturado com apoio de IA.",
+    "fullDescription": "Transcriptionist é um app iOS criado para converter áudios de aulas em notas realmente utilizáveis. O fluxo combina gravação ao vivo ou importação de arquivos, transcrição local com tecnologias nativas da Apple e uma etapa opcional de refinamento com IA para reorganizar o conteúdo em Markdown limpo, claro e pronto para revisão. Com SwiftUI, SwiftData e uma integração enxuta com Supabase e Gemini, o projeto prioriza privacidade, desempenho e uma experiência resiliente mesmo quando o processamento em nuvem não está disponível.",
+    "year": "2026",
+    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775593047/TranscriberIcon2_ftsqej.png",
+    "images": [
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775588797/Screen-1_bfqhxr.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775596102/Screen-2_cciwxr.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589109/Screen-3_iukrom.png"
+    ],
+    "technologies": ["SwiftUI", "SwiftData", "AVFoundation", "Speech", "Supabase", "Gemini"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      }
+    ]
+  },
+  {
+    "id": "recorda",
+    "name": "Recorda",
+    "shortDescription": "Transforma músicas, fotos e reflexões em memórias pessoais revisitáveis ao longo do tempo.",
+    "fullDescription": "Recorda é um aplicativo iOS que permite registrar memórias a partir de álbuns e faixas musicais, combinando contexto musical com fotos, vídeos e texto. O projeto usa uma arquitetura híbrida entre UIKit e SwiftUI, integra Spotify para descoberta de conteúdo e Apple Music para reprodução, e mantém toda a experiência local com Core Data, widgets e deep links. O resultado é uma proposta emocional e criativa de arquivo pessoal, pensada para privacidade, acesso offline e navegação fluida entre lembranças.",
+    "year": "2025",
+    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592825/RecordaIcon_pwuljo.svg",
+    "images": [
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589880/Preview_qtu7gz.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589879/Preview-1_jcxuhb.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589880/Preview-2_d99bsu.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589880/Preview-3_v0jsrz.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589880/Preview_qtu7gz.jpg"
+    ],
+    "technologies": ["UIKit", "SwiftUI", "Core Data", "WidgetKit", "Spotify API", "MusicKit"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Diogo Camargo",
+        "linkedin": "https://www.linkedin.com/in/diogo-pcamargo/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Eduardo Camana",
+        "linkedin": "https://www.linkedin.com/in/eduardocamana/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Rafael Toneto",
+        "linkedin": "https://www.linkedin.com/in/rafael-toneto-429b76316/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Vítor Martins",
+        "linkedin": "https://www.linkedin.com/in/vítor-martins-940576207/",
+        "role": "Designer"
+      }
+    ]
+  },
+  {
+    "id": "retrotrip",
+    "name": "RetroTrip",
+    "shortDescription": "Gamifica o aprendizado de história com mapa interativo, cenas 360° e quizzes dinâmicos.",
+    "fullDescription": "RetroTrip é um app educacional em formato de jogo que transforma eventos históricos em uma jornada interativa de descoberta. O usuário explora um mapa com locais históricos, entra em cenas panorâmicas em 360 graus, responde quizzes e progride por meio de energia, recompensas e coleção de eventos concluídos. Construído com SwiftUI, SceneKit, Core Motion e CloudKit, o projeto combina imersão visual, arquitetura MVVM e sincronização entre app e widgets para criar uma experiência envolvente e rejogável.",
+    "year": "2025",
+    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592830/RetroTripIcon_pdf1nc.png",
+    "images": [
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592073/Preview_1b-1_egqgjr.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592074/Preview_1b_wnj3sj.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592074/Preview_1b-4_lfnkbd.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592074/Preview_1b-2_ooedm3.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592073/Preview_1b-3_vlufvp.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592074/Preview_1b-5_v9wmbu.png"
+    ],
+    "technologies": ["SwiftUI", "SceneKit", "Core Motion", "CloudKit", "WidgetKit", "Lottie"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Marcos Raach",
+        "linkedin": "https://www.linkedin.com/in/marcosraach/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Antônio Costa Jr",
+        "linkedin": "https://www.linkedin.com/in/antoniocosta001/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Alex Fraga",
+        "linkedin": "https://www.linkedin.com/in/alex-fraga1/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Leonardo Simon Monteiro",
+        "linkedin": "https://www.linkedin.com/in/leonardosimon/?locale=pt_BR",
+        "role": "Designer"
+      }
+    ]
+  },
+  {
+    "id": "tower-of-the-winds",
+    "name": "Tower of the Winds",
+    "shortDescription": "Um puzzle-platformer 2D em que o jogador controla um gato por meio de rajadas de vento.",
+    "fullDescription": "Tower of the Winds é um jogo mobile 2D para iOS centrado em uma mecânica touch-native de movimentação baseada em vento. Em vez de botões tradicionais, o jogador usa swipes para impulsionar o personagem, resolver desafios de plataforma, evitar perigos, coletar moedas e avançar por checkpoints com poderes contextuais. Desenvolvido com SwiftUI, SpriteKit e GameplayKit, o projeto combina uma base técnica escalável com identidade visual inspirada na mitologia grega, Game Center e fluxos de revive e progressão pensados para alta rejogabilidade.",
+    "year": "2026",
+    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592827/TowerOfTheWindsIcon_km4xfz.png",
+    "images": [
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.39_f53pqx.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.42.07_injjw1.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.42.49_lbj5bt.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.44_kn89g9.png",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775591084/Simulator_Screenshot_-_iPhone_17_-_2026-04-07_at_16.41.49_ttwlmz.png"
+    ],
+    "technologies": ["SwiftUI", "SpriteKit", "GameplayKit", "Game Center", "Google Mobile Ads", "Lottie"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Eduardo Camana",
+        "linkedin": "https://www.linkedin.com/in/eduardocamana/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Andrei Rech",
+        "linkedin": "https://www.linkedin.com/in/rechandrei/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Carolina Silva dos Santos",
+        "linkedin": "https://www.linkedin.com/in/carolina-silva-dos-santos-a320111a7/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Rafaela Julianotte da Silva",
+        "linkedin": "https://www.linkedin.com/in/rafajulianotte/",
+        "role": "Designer"
+      }
+    ]
+  },
+  {
+    "id": "zine",
+    "name": "Zine",
+    "shortDescription": "Crie, visualize e exporte mini-zines prontos para dobra e impressão diretamente no iPhone.",
+    "fullDescription": "Zine é uma ferramenta criativa para iOS focada em mini-publicações impressas de oito páginas. O app oferece edição visual, pré-visualização interativa, biblioteca local persistente e exportação em PDF já organizada no layout correto para dobra e impressão física. Construído com SwiftUI, SwiftData, interoperabilidade com UIKit e o pacote externo zinedit, o projeto transforma um fluxo editorial tradicionalmente complexo em uma experiência mobile simples, offline e eficiente.",
+    "year": "2025",
+    "icon": "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775592829/ZinerIcon_cuikzd.png",
+    "images": [
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590221/EN_Preview_1_hixvuh.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_2_-_New_Zine_ml9u3r.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_3_-_Editor_krc08c.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_6_-_Download_now_kgmhhz.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_4_-_Exportar_bc3qvg.jpg",
+      "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775590223/EN_Preview_5_-_Dark_mode_rs9xfu.jpg"
+    ],
+    "technologies": ["SwiftUI", "SwiftData", "UIKit", "Observation", "PDF Export", "zinedit"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Bernardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/bernardofens/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Agatha Schneider",
+        "linkedin": "https://www.linkedin.com/in/agatha-schneider-68400b172/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Endrew Soares",
+        "linkedin": "https://www.linkedin.com/in/endrew-soares-9716881b9/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Vinicius Cadore",
+        "linkedin": "https://www.linkedin.com/in/cadoreee/",
+        "role": "Designer"
+      }
+    ]
+  }
+]

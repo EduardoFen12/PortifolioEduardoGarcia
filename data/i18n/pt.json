@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "locale": "pt-BR",
+    "pageTitle": "Eduardo Garcia Fensterseifer | Portfólio de Desenvolvedor"
+  },
+  "nav": {
+    "home": "Início",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "controls": {
+    "theme": "Tema",
+    "language": "Idioma",
+    "light": "Claro",
+    "dark": "Escuro",
+    "portuguese": "PT 🇧🇷",
+    "english": "EN 🇺🇸"
+  },
+  "hero": {
+    "eyebrow": "iOS Developer",
+    "title": "Olá mundo! Eu sou o Eduardo.",
+    "description": "Sou um desenvolvedor iOS com 2 anos de experiência criando apps nativos em Swift, com foco em arquitetura limpa, performance e experiências de uso bem acabadas. Tenho 4 apps publicados na App Store e estou aberto a oportunidades em desenvolvimento mobile de forma geral, com interesse especial no ecossistema Apple.",
+    "location": "Baseado no Brasil, construindo para times globais"
+  },
+  "contact": {
+    "title": "Vamos conversar",
+    "description": "Estou disponível para colaborações em produto, mobile e IA.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  },
+  "projects": {
+    "title": "Projetos iOS em Destaque",
+    "description": "Uma vitrine de aplicações nativas em Swift. Foco em arquitetura limpa, alta performance e experiências de usuário intuitivas.",
+    "yearLabel": "Ano",
+    "viewProject": "Abrir projeto",
+    "backToHome": "Voltar ao início",
+    "teamTitle": "Equipe",
+    "technologiesTitle": "Tecnologias",
+    "galleryTitle": "Galeria",
+    "aboutTitle": "Resumo do projeto",
+    "notFoundTitle": "Projeto não encontrado",
+    "notFoundDescription": "O projeto que você procura não está disponível no conjunto de dados do idioma atual.",
+    "returnHome": "Voltar para o portfólio"
+  },
+  "footer": {
+    "text": "Construído com React, TypeScript, Tailwind CSS e Framer Motion."
+  }
+}
