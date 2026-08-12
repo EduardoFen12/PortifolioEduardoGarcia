@@ -72,7 +72,7 @@ export function HeroSection() {
           <img
             alt="Eduardo Garcia"
             className="aspect-[4/5] w-full rounded-[2rem] object-cover"
-            src={`${import.meta.env.BASE_URL}assets/profile/eduardo-profile.png`}
+            src={`${import.meta.env.BASE_URL}assets/profile/eduardo-profile.jpg`}
           />
         </div>
       </motion.div>
