@@ -12,8 +12,8 @@
       "https://res.cloudinary.com/dwgyuhadw/image/upload/v1775589109/Screen-3_iukrom.png"
     ],
     "store": {
-      "label": "TestFlight",
-      "url": "https://testflight.apple.com/join/2NBMrnGz"
+      "label": "App Store",
+      "url": "https://apps.apple.com/app/id6760620382"
     },
     "technologies": ["SwiftUI", "SwiftData", "AVFoundation", "Speech", "Supabase", "Gemini"],
     "team": [
