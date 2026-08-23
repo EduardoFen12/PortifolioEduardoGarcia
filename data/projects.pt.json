@@ -25,6 +25,99 @@
     ]
   },
   {
+    "id": "basketrack",
+    "name": "BaskeTrack",
+    "shortDescription": "Transforma o treino de arremesso em um registro objetivo de volume e precisão por região da quadra.",
+    "fullDescription": "BaskeTrack é um app nativo para iPhone e Apple Watch que mede treino de arremesso de basquete por região da quadra. O jogador escolhe o tipo de arremesso — três pontos, meia distância ou garrafão —, toca no diagrama da quadra para marcar o ponto exato e inicia uma sessão cronometrada em que cada tentativa vira acerto ou erro, registrada no telefone ou no relógio pareado via WatchConnectivity. As sessões salvas voltam num histórico filtrável, com ficha detalhada e edição posterior, e alimentam uma aba de evolução com totais, gráfico de precisão em Swift Charts e um mapa de zonas da quadra. Construído inteiramente em SwiftUI e SwiftData, sem backend e sem dependências externas, funciona totalmente offline: sem conta, sem sinal e sem atrito entre um arremesso e o próximo.",
+    "year": "2026",
+    "icon": "assets/projects/basketrack/icon.png",
+    "images": [
+      "assets/projects/basketrack/screen-1.jpg",
+      "assets/projects/basketrack/screen-2.jpg",
+      "assets/projects/basketrack/screen-3.jpg",
+      "assets/projects/basketrack/screen-4.jpg",
+      "assets/projects/basketrack/screen-5.jpg"
+    ],
+    "technologies": ["SwiftUI", "SwiftData", "WatchConnectivity", "Swift Charts", "watchOS"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      }
+    ]
+  },
+  {
+    "id": "markstone",
+    "name": "Markstone",
+    "shortDescription": "Transforma aniversários, comemorações e memoriais em lembretes que chegam com antecedência suficiente para preparar algo.",
+    "fullDescription": "Markstone é um app nativo para iPhone, iPad e Apple Watch que guarda as datas que importam e avisa cedo o bastante para dar tempo de agir. Cada data agenda notificações em camadas, que chegam uma semana antes, um dia antes e no próprio dia, e pode ser digitada, importada de Contatos e Calendário ou registrada por voz via Siri e Atalhos. Construído em SwiftUI e SwiftData para iOS 26, o app leva a lista para a tela de bloqueio e para o pulso com widgets e complications, e usa o framework Foundation Models rodando localmente para sugerir presentes e redigir mensagens personalizadas. Não há conta, servidor nem sincronização: os dados de relacionamento nunca saem do aparelho, uma decisão de produto que molda toda a arquitetura.",
+    "year": "2026",
+    "icon": "assets/projects/markstone/icon.png",
+    "images": [
+      "assets/projects/markstone/01-home.jpg",
+      "assets/projects/markstone/02-detail.jpg",
+      "assets/projects/markstone/03-edit.jpg",
+      "assets/projects/markstone/04-search.jpg",
+      "assets/projects/markstone/watch-screen.jpg"
+    ],
+    "store": {
+      "label": "TestFlight",
+      "url": "https://testflight.apple.com/join/GWzRj59w"
+    },
+    "technologies": ["SwiftUI", "SwiftData", "App Intents", "Foundation Models", "WidgetKit", "WatchConnectivity"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      }
+    ]
+  },
+  {
+    "id": "fifth-element",
+    "name": "Fifth Element - The Experience",
+    "shortDescription": "Um jogo de realidade mista para Apple Vision Pro em que o espaço físico vira campo de batalha para magias elementais.",
+    "fullDescription": "Fifth Element é um jogo nativo para Apple Vision Pro que transforma o ambiente do jogador em um campo de batalha mágico contra ondas intermináveis de golens. Feito do zero para visionOS, combina rastreamento ocular para mira precisa com reconhecimento de gestos para conjurar magias de fogo, gelo e natureza, sem nenhum controle nas mãos. Runas desenhadas no ar liberam cura e ataques em área, e o áudio espacial ancora o combate na floresta 3D que envolve o jogador. O projeto usa RealityKit e Reality Composer Pro para o conteúdo 3D e ARKit para leitura do espaço, explorando computação espacial como linguagem de jogo em vez de enfeite.",
+    "year": "2026",
+    "icon": "assets/projects/fifth-element/icon.png",
+    "images": [
+      "assets/projects/fifth-element/demo.mp4"
+    ],
+    "store": {
+      "label": "App Store",
+      "url": "https://apps.apple.com/app/id6792067000"
+    },
+    "technologies": ["SwiftUI", "RealityKit", "Reality Composer Pro", "ARKit", "AVFoundation", "visionOS"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Andrei Rech",
+        "linkedin": "https://www.linkedin.com/in/rechandrei/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Antônio Costa Jr",
+        "linkedin": "https://www.linkedin.com/in/antoniocosta001/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Fernando Sulzbach",
+        "linkedin": "https://www.linkedin.com/in/fesulzbach/",
+        "role": "Desenvolvedor"
+      },
+      {
+        "name": "Julia Nascimento",
+        "linkedin": "https://www.linkedin.com/in/julianascimentocosta/",
+        "role": "Designer"
+      }
+    ]
+  },
+  {
     "id": "tower-of-the-winds",
     "name": "Tower of the Winds",
     "shortDescription": "Um puzzle-platformer 2D em que o jogador controla um gato por meio de rajadas de vento.",
