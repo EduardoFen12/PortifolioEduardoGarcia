@@ -8,6 +8,10 @@ function resolveAssetUrl(path: string) {
     : `${import.meta.env.BASE_URL}${path}`;
 }
 
+function isVideo(path: string) {
+  return /\.(mp4|mov|webm)$/i.test(path);
+}
+
 function AppleIcon() {
   return (
     <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
@@ -127,16 +131,31 @@ export function ProjectPage() {
           <div className="mt-6 flex snap-x gap-5 overflow-x-auto pb-2">
             {project.images.map((image, index) => (
               <motion.div
-                className="min-w-[260px] snap-start overflow-hidden rounded-[28px] border border-border bg-surfaceSoft shadow-[0_14px_30px_rgba(0,0,0,0.08)] dark:shadow-[0_16px_32px_rgba(0,0,0,0.34)] sm:min-w-[300px]"
+                className={`snap-start overflow-hidden rounded-[28px] border border-border bg-surfaceSoft shadow-[0_14px_30px_rgba(0,0,0,0.08)] dark:shadow-[0_16px_32px_rgba(0,0,0,0.34)] ${
+                  isVideo(image)
+                    ? 'min-w-[320px] sm:min-w-[640px]'
+                    : 'min-w-[260px] sm:min-w-[300px]'
+                }`}
                 key={image}
                 transition={{ duration: 0.2 }}
                 whileHover={{ y: -4 }}
               >
-                <img
-                  alt={`${project.name} screenshot ${index + 1}`}
-                  className="aspect-[9/19.5] w-full object-cover"
-                  src={resolveAssetUrl(image)}
-                />
+                {isVideo(image) ? (
+                  <video
+                    className="aspect-video w-full object-cover"
+                    controls
+                    playsInline
+                    poster={resolveAssetUrl(image.replace(/\.\w+$/, '-poster.jpg'))}
+                    preload="none"
+                    src={resolveAssetUrl(image)}
+                  />
+                ) : (
+                  <img
+                    alt={`${project.name} screenshot ${index + 1}`}
+                    className="aspect-[9/19.5] w-full object-cover"
+                    src={resolveAssetUrl(image)}
+                  />
+                )}
               </motion.div>
             ))}
           </div>

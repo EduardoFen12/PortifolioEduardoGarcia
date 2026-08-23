@@ -25,6 +25,76 @@
     ]
   },
   {
+    "id": "markstone",
+    "name": "Markstone",
+    "shortDescription": "Turns birthdays, celebrations, and memorials into reminders that arrive early enough to actually prepare something.",
+    "fullDescription": "Markstone is a native iPhone, iPad, and Apple Watch app that keeps the dates that matter and warns you early enough to do something about them. Each date schedules a layered set of notifications that fire a week before, a day before, and on the day itself, and can be typed in, imported from Contacts and Calendar, or added by voice through Siri and Shortcuts. Built in SwiftUI and SwiftData for iOS 26, it brings the list to the Lock Screen and the wrist through widgets and complications, and uses the Foundation Models framework running on device to suggest gifts and draft personalized messages. There is no account, server, or sync: relationship data never leaves the device, a product decision that shapes the whole architecture.",
+    "year": "2026",
+    "icon": "assets/projects/markstone/icon.png",
+    "images": [
+      "assets/projects/markstone/01-home.jpg",
+      "assets/projects/markstone/02-detail.jpg",
+      "assets/projects/markstone/03-edit.jpg",
+      "assets/projects/markstone/04-search.jpg",
+      "assets/projects/markstone/watch-screen.jpg"
+    ],
+    "store": {
+      "label": "TestFlight",
+      "url": "https://testflight.apple.com/join/GWzRj59w"
+    },
+    "technologies": ["SwiftUI", "SwiftData", "App Intents", "Foundation Models", "WidgetKit", "WatchConnectivity"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "id": "fifth-element",
+    "name": "Fifth Element - The Experience",
+    "shortDescription": "A mixed reality game for Apple Vision Pro that turns the room around you into a battleground for elemental magic.",
+    "fullDescription": "Fifth Element is a native Apple Vision Pro game that turns the player's own room into a magical battleground against endless waves of golems. Built from the ground up for visionOS, it pairs eye tracking for precise aiming with hand gesture recognition to conjure fire, ice, and nature magic, with no controller involved. Runes drawn in mid-air release healing and area attacks, and spatial audio anchors the fight inside the 3D forest that surrounds the player. The project uses RealityKit and Reality Composer Pro for its 3D content and ARKit to read the space, treating spatial computing as the language of the game rather than a decoration.",
+    "year": "2026",
+    "icon": "assets/projects/fifth-element/icon.png",
+    "images": [
+      "assets/projects/fifth-element/demo.mp4"
+    ],
+    "store": {
+      "label": "App Store",
+      "url": "https://apps.apple.com/app/id6792067000"
+    },
+    "technologies": ["SwiftUI", "RealityKit", "Reality Composer Pro", "ARKit", "AVFoundation", "visionOS"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Developer"
+      },
+      {
+        "name": "Andrei Rech",
+        "linkedin": "https://www.linkedin.com/in/rechandrei/",
+        "role": "Developer"
+      },
+      {
+        "name": "Antônio Costa Jr",
+        "linkedin": "https://www.linkedin.com/in/antoniocosta001/",
+        "role": "Developer"
+      },
+      {
+        "name": "Fernando Sulzbach",
+        "linkedin": "https://www.linkedin.com/in/fesulzbach/",
+        "role": "Developer"
+      },
+      {
+        "name": "Julia Nascimento",
+        "linkedin": "https://www.linkedin.com/in/julianascimentocosta/",
+        "role": "Designer"
+      }
+    ]
+  },
+  {
     "id": "tower-of-the-winds",
     "name": "Tower of the Winds",
     "shortDescription": "A 2D puzzle-platformer where the player guides a cat using wind-driven swipe controls.",
