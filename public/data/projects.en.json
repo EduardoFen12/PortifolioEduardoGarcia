@@ -25,6 +25,29 @@
     ]
   },
   {
+    "id": "basketrack",
+    "name": "BaskeTrack",
+    "shortDescription": "Turns shooting practice into an objective log of volume and accuracy per court zone.",
+    "fullDescription": "BaskeTrack is a native iPhone and Apple Watch app that measures basketball shooting practice by court zone. The player picks a shot type — three-point, mid-range, or paint — taps the court diagram to mark the exact spot, and runs a timed session where every attempt is logged as a hit or a miss, recorded on the phone or on a paired watch over WatchConnectivity. Saved sessions come back in a filterable history with a detail sheet and after-the-fact editing, and feed a development tab with headline totals, a Swift Charts accuracy trend, and a labeled court zone map. Built entirely in SwiftUI and SwiftData with no backend and no third-party dependencies, it runs fully offline: no account, no signal, and nothing standing between two shots.",
+    "year": "2026",
+    "icon": "assets/projects/basketrack/icon.png",
+    "images": [
+      "assets/projects/basketrack/screen-1.jpg",
+      "assets/projects/basketrack/screen-2.jpg",
+      "assets/projects/basketrack/screen-3.jpg",
+      "assets/projects/basketrack/screen-4.jpg",
+      "assets/projects/basketrack/screen-5.jpg"
+    ],
+    "technologies": ["SwiftUI", "SwiftData", "WatchConnectivity", "Swift Charts", "watchOS"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
     "id": "markstone",
     "name": "Markstone",
     "shortDescription": "Turns birthdays, celebrations, and memorials into reminders that arrive early enough to actually prepare something.",

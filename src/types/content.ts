@@ -66,7 +66,7 @@ export type Project = {
   year: string;
   icon: string;
   images: string[];
-  store: {
+  store?: {
     label: string;
     url: string;
   };

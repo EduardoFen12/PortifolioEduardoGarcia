@@ -25,6 +25,29 @@
     ]
   },
   {
+    "id": "basketrack",
+    "name": "BaskeTrack",
+    "shortDescription": "Transforma o treino de arremesso em um registro objetivo de volume e precisão por região da quadra.",
+    "fullDescription": "BaskeTrack é um app nativo para iPhone e Apple Watch que mede treino de arremesso de basquete por região da quadra. O jogador escolhe o tipo de arremesso — três pontos, meia distância ou garrafão —, toca no diagrama da quadra para marcar o ponto exato e inicia uma sessão cronometrada em que cada tentativa vira acerto ou erro, registrada no telefone ou no relógio pareado via WatchConnectivity. As sessões salvas voltam num histórico filtrável, com ficha detalhada e edição posterior, e alimentam uma aba de evolução com totais, gráfico de precisão em Swift Charts e um mapa de zonas da quadra. Construído inteiramente em SwiftUI e SwiftData, sem backend e sem dependências externas, funciona totalmente offline: sem conta, sem sinal e sem atrito entre um arremesso e o próximo.",
+    "year": "2026",
+    "icon": "assets/projects/basketrack/icon.png",
+    "images": [
+      "assets/projects/basketrack/screen-1.jpg",
+      "assets/projects/basketrack/screen-2.jpg",
+      "assets/projects/basketrack/screen-3.jpg",
+      "assets/projects/basketrack/screen-4.jpg",
+      "assets/projects/basketrack/screen-5.jpg"
+    ],
+    "technologies": ["SwiftUI", "SwiftData", "WatchConnectivity", "Swift Charts", "watchOS"],
+    "team": [
+      {
+        "name": "Eduardo Garcia Fensterseifer",
+        "linkedin": "https://www.linkedin.com/in/eduardo-fensterseifer/",
+        "role": "Desenvolvedor"
+      }
+    ]
+  },
+  {
     "id": "markstone",
     "name": "Markstone",
     "shortDescription": "Transforma aniversários, comemorações e memoriais em lembretes que chegam com antecedência suficiente para preparar algo.",

@@ -94,15 +94,17 @@ export function ProjectPage() {
             </div>
 
             <div className="flex items-center gap-3 self-start">
-              <a
-                className="inline-flex w-fit items-center gap-2 whitespace-nowrap rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(0,113,227,0.28)]"
-                href={project.store.url}
-                rel="noreferrer"
-                target="_blank"
-              >
-                <AppleIcon />
-                <span>{project.store.label}</span>
-              </a>
+              {project.store && (
+                <a
+                  className="inline-flex w-fit items-center gap-2 whitespace-nowrap rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(0,113,227,0.28)]"
+                  href={project.store.url}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <AppleIcon />
+                  <span>{project.store.label}</span>
+                </a>
+              )}
               <span className="rounded-full bg-surfaceSoft px-4 py-3 text-sm font-medium text-textMuted">
                 {project.year}
               </span>
